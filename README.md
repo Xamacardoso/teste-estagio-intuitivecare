@@ -24,6 +24,9 @@ O projeto está dividido em 4 etapas, cada uma com seu próprio README e seu pr�
 Os tradeoffs técnicos estão dispostos abaixo, por etapa, e foram preenchidos à medida em que eu avançava no desenvolvimento deste projeto.
 
 ## Tradeoffs Etapa 1:
+- **Processar todos os arquivos em memória de uma vez
+ou processar incrementalmente**
+    - Realizei o processamento incremental, pois economiza memória RAM e permite o processamento de arquivos maiores. No processamento simultâneo, os arquivos poderiam ser maiores do que a memória RAM disponível, impossibilitando que o programa fosse executado em máquinas com poucos recursos computacionais.
 
 ## Tradeoffs Etapa 2:
 
